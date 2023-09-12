@@ -1,0 +1,148 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>online官网</title>
+<style type="text/css">
+body {<!--边距为0-->
+	margin-left: 0px;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+}
+</style>
+</head>
+
+<body>
+	<!--表宽-->
+<table width="100%">
+  <tbody>
+	  <!--开始-->
+	  <!--1-->
+	   <tr>
+      <td colspan="4">&nbsp;<a href="b.html">研发者个人简介</a></td>
+    </tr>
+	  <!--标题-->
+    <tr> 
+      <td colspan="4" align="center"><span style="font-size: 88px; font-family: Gotham, 'Helvetica Neue', Helvetica, Arial, sans-serif;">online官网</span>&nbsp;      </td>
+    </tr>
+	  <!--2-->
+    <tr>
+      <td colspan="4" align="center">&nbsp;
+	<form action="https://wap.baidu.com/s" method="get" autocomplete="off">
+      <input type="text" name="word" style="height: 40px; width: 300px;">
+      <input type="submit" value="百度一下" style="height: 40px; width: 100px;">
+    </form>
+		</td>
+    </tr>
+	  <!--3-->
+   <!--暂空-->
+	  <!--4-->
+    <tr style="font-size: 36px">
+      <td colspan="4">&nbsp;<span style="color: #1B8BED">|</span><a href="https://vip.yeyulingfeng.com/"><span style="color: #000000">video</span></a></td>
+    </tr>
+	  <!--5-->
+    <tr>
+      <td colspan="2"><a href="https://v.qq.com/" target="_blank"><img src="ps/QQ图片20230911170058.jpg" width="80" height="80" alt=""/></a></td>
+      <td><a href="https://www.bilibili.com/" target="_blank"><img src="ps/QQ图片20230911171056.jpg" width="80" height="82" alt=""/></a></td>
+      <td><a href="https://www.iqiyi.com/?vfm=f_588_wrb&fv=ac30238882b84c8c" target="_blank"><img src="ps/QQ图片20230911170138.jpg" width="80" height="80" alt=""/></a></td>
+    </tr>
+	  <!--6-->
+    <tr>
+      <td colspan="2"><a href="https://v.qq.com/" target="_blank">&nbsp;<span style="color: #000000">腾讯视频</span></a></td>
+      <td>&nbsp;<a href="https://www.bilibili.com/" target="_blank"><span style="color: #000000">哔哩哔哩</span></a></td>
+      <td>&nbsp;<a href="https://www.iqiyi.com/?vfm=f_588_wrb&fv=ac30238882b84c8c" target="_blank"><span style="color: #000000">爱奇艺</span></a></td>
+    </tr>
+	  <!--7-->
+	 <tr>
+      <td colspan="4">&nbsp;</td>
+    </tr>
+	    <!--8-->
+     <tr style="font-size: 36px">
+      <td colspan="4">&nbsp;<span style="color: #1B8BED">|</span><a href="https://www.whcibe.com/" target="_blank"><span style="color: #000000">School Website</span></a></td>
+    </tr>
+	 <!--9-->
+    <tr style="font-size: 30px">
+      <td>&nbsp;<a href="https://passport2.chaoxing.com/login?fid=&newversion=true&refer=http%3A//i.chaoxing.com" target="_blank"><span style="color: #000000">学习通</span></a></td>
+      <td><a href="https://www.educoder.net/" target="_blank">&nbsp;<span style="color: #000000">头歌实践平台</span></a></td>
+      <td>&nbsp;<a href="http://jw.whcibe.com/xtgl/login_slogin.html" target="_blank"><span style="color: #000000">教务系统</span></a></td>
+     <td><a href="http://zfpt.whcibe.com/" target="_blank">&nbsp;<span style="color: #000000">学生缴费</span></a></td>
+    </tr>
+	  <!--10-->
+	  <!--测试-->
+    <tr>
+      <td colspan="4">&nbsp;</td>
+    </tr>
+	  <tr style="font-size: 36px">
+      <td colspan="4">&nbsp;<span style="color: #1B8BED">|</span><span style="color: #000000">Music</span></td>
+    </tr>
+	  <tr>
+      <td colspan="2"><a href="https://music.163.com/" target="_blank"><img src="ps/QQ图片20230911202114.jpg" width="100" height="100" alt=""/></a></td>
+      <td><a href="https://y.qq.com/" target="_blank"><img src="ps/QQ图片20230911202118.jpg" width="100" height="100" alt=""/></a></td>
+      <td><a href="https://www.kugou.com/" target="_blank"><img src="ps/QQ图片20230911202121.jpg" width="100" height="100" alt=""/></a></td>
+    </tr>
+    <tr>
+	 <tr style="font-size: 30px">
+      <td colspan="2"><a href="https://music.163.com/" target="_blank">&nbsp;<span style="color: #000000">网易云音乐</span></a></td>
+      <td><a href="https://y.qq.com/" target="_blank">&nbsp;<span style="color: #000000">QQ音乐</span></a></td>
+      <td>&nbsp;<a href="https://www.kugou.com/" target="_blank"><span style="color: #000000">酷狗音乐</span></a></td>
+    </tr>
+	  </tr>
+	<tr>
+      <td colspan="4">&nbsp;</td>
+    </tr>
+	  <tr style="font-size: 36px">
+      <td colspan="4">&nbsp;<span style="color: #1B8BED">|</span><span style="color: #000000">Short video</span></td>
+    </tr>
+	<tr>
+      <td colspan="3"><a href="https://www.kuaishou.com/new-reco" target="_blank"><img src="ps/QQ图片20230911203011.jpg" width="100" height="100" alt=""/></a></td>
+      <td><a href="https://www.douyin.com/" target="_blank"><img src="ps/QQ图片20230911202133.jpg" width="100" height="100" alt=""/></a></td>
+    </tr>
+	<tr>
+		 <tr style="font-size: 30px">
+      <td colspan="3">&nbsp;<a href="https://www.kuaishou.com/new-reco" target="_blank"><span style="color: #000000">快手</span></a></td>
+      <td>&nbsp;<a href="https://www.douyin.com/" target="_blank"><span style="color: #000000">抖音</span></a></td>
+    </tr>
+	<tr>
+      <td colspan="4">&nbsp;</td>
+    </tr>
+	</tr>
+	  <tr style="font-size: 36px">
+      <td colspan="4">&nbsp;<span style="color: #1B8BED">|</span><span style="color: #000000">Other</span></td>
+    </tr>
+	<tr>
+		<tr style="font-size: 30px">
+       <td colspan="3">&nbsp;<a href="http://cxysite.com/" target="_blank">程序员导航</a>（包含各种小程序）</td>
+       <td><a href="https://3320s5861f.imdo.co/" target="_blank">&nbsp;LG资源铺</a>（可找<a href="https://wpa.qq.com/msgrd?v=3&uin=2747389535&site=qq&menu=yes&jumpflag=1" target="_blank">管理员</a>刷机）</td>
+    </tr>
+	<tr>
+		<tr style="font-size: 30px">
+      <td colspan="4">&nbsp;<a href="d.html" target="_blank">ChatGpt</a>（不同版本安装）</td>
+    </tr>
+	<tr>
+      <td colspan="4">&nbsp;</td>
+    </tr>
+    <tr>
+      <td colspan="4">&nbsp;</td>
+    </tr>
+	  <!--结尾-->
+	  <tr>
+      <td colspan="4" align="center">&nbsp;<a href="https://wpa.qq.com/msgrd?v=3&uin=2473599024&site=qq&menu=yes&jumpflag=1"><img src="ps/QQ图片20230911183850.jpg" width="20" height="20" alt=""/>用户反馈（点击）</a></td>
+    </tr>
+    <tr>
+      <td colspan="4" align="center">&nbsp;Online京ICP证010173号
+</td>
+    </tr>
+    <tr>
+       <td colspan="4" align="center">&nbsp;版权所有 online研发部</td>
+    </tr>
+    <tr>
+      <td colspan="4" align="center"><img src="ps/QQ图片20230911182818.jpg" width="20" height="20" alt=""/>&nbsp;京公网安备110000020230911号</td>
+    </tr>
+	  <!--结束-->
+  </tbody>
+</table>
+
+</body>
+</html>
