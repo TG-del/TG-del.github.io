@@ -1,1 +1,0 @@
-# TG-del.github.io
