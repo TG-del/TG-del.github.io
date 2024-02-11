@@ -1,0 +1,190 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>online官网</title>
+<style>
+    @media screen and (max-width: 1000px) {
+  /* 当屏幕宽度小于等于1000px时应用的样式 */
+
+  /* 在这里添加你想要适应手机的样式 */
+  body {
+    font-size: 40px; /* 设置合适的字体大小 */
+  }
+}
+    
+    @media screen and (min-width: 601px) and (max-width: 1024px) {
+        /* 当屏幕宽度在601px到1024px之间时应用的样式 */
+        /* 在这里添加你想要适应平板的样式 */
+    }
+    
+    @media screen and (min-width: 1025px) {
+        /* 当屏幕宽度大于等于1025px时应用的样式 */
+        /* 在这里添加你想要适应电脑的样式 */
+    }
+a:link {
+	color: #000000;
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+	color: #000000;
+}
+a:hover {
+	text-decoration: none;
+	color: #000000;
+}
+a:active {
+	text-decoration: none;
+	color: #000000;
+}
+</style>
+</head>
+
+<body>
+	<!--左侧边栏-->
+	  <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        #sidebar {
+            position: fixed;
+            top: 0;
+            left: -200px;
+            width: 200px;
+            height: 100%;
+            background-color: #f1f1f1;
+            transition: left 0.3s;
+            z-index: 1;
+        }
+
+        #sidebar ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        #sidebar ul li {
+            padding: 10px;
+            cursor: pointer;
+        }
+
+        #sidebar ul li:hover {
+            background-color: #ddd;
+        }
+
+        #sidebar #toggle-sidebar {
+            position: absolute;
+            top: 0;
+            right: -3px;
+            width: 30px;
+            height: 100%;
+            background-color: #f1f1f1;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: right 0.3s;
+        }
+
+        #sidebar #toggle-sidebar:hover {
+            background-color: #ddd;
+        }
+
+        #sidebar #toggle-sidebar:before {
+            content: "⊞";
+        }
+
+        #sidebar.show {
+            left: 0;
+        }
+
+        #sidebar.show #toggle-sidebar {
+            right: 0;
+        }
+
+        #content {
+            margin-left: 200px;
+            padding: 20px;
+        }
+    </style>
+	<!-- 添加左侧边栏和按钮 -->
+     <div id="sidebar">
+        <ul>
+            <li><a href="index.html" target="_self">主页</a></li>
+            <li><a href="biancheng.html" target="_self">编程</a></li>
+            <li><a href="chanpin.html" target="_self">产品</a></li>
+            <li><a href="AI.html" target="_self">AI</a></li>
+            <li><a href="moyu.html" target="_self">摸鱼</a></li>
+        </ul>
+        <div id="toggle-sidebar"></div>
+    </div>
+    <div id="content">
+        <h1>欢迎来到我的网页</h1>
+        <p>点击按钮显示/隐藏左侧边栏</p>
+		<!--网站赞助-->
+  <tr style="font-size: 36px">
+      <td colspan="7"><h4 id="early_lifj"><span style="color: #1B8BED">|</span>网站赞助</h4></td>
+    </tr>
+      <td colspan="7">&nbsp;大哥哥大姐姐们啊！你们都是有钱的人呐～谁有那多余的零钱？给我这流浪的人啊...</td>
+    <tr>
+      <td colspan="6"><img src="image/QQ图片20231121141035.jpg" width="300" height="300" alt=""/><img src="image/QQ图片20231121140344.jpg" width="300" height="300" alt=""/>&nbsp;&nbsp;</td>
+    </tr>
+<tr>
+      <td colspan="7">&nbsp;大哥哥大姐姐们啊！扫这个红包，到店支付的时候有优惠哦！</td>   
+    </tr>
+<tr>
+      <td colspan="7"><img src="image/QQ图片20231121142104.jpg" width="300" height="300" alt=""/></td>
+    </tr>
+<!--空格-->
+<tr>
+      <td colspan="7">&nbsp;</td>
+    </tr>
+    <!--结尾-->
+	  <tr>
+      <td colspan="7" align="center">&nbsp;<a href="https://wpa.qq.com/msgrd?v=3&uin=3037565231&site=qq&menu=yes&jumpflag=1" title="点击后跳转到管理员QQ好友界面" target="_parent"><img src="image/QQ图片20230911183850.jpg" width="20" height="20" alt=""/>用户反馈（点击）</a></td>
+    </tr>
+    <tr>
+      <td colspan="7" align="center">&nbsp;Online京ICP证010173号
+</td>
+    </tr>
+    <tr>
+       <td colspan="7" align="center">&nbsp;版权所有 online研发部</td>
+    </tr>
+    <tr>
+      <td colspan="7" align="center"><img src="image/QQ图片20230911182818.jpg" width="20" height="20" alt=""/>&nbsp;online官网备案110000020230911号</td>
+		<tr>
+       <td colspan="7" align="center">&nbsp;温馨提示：网页功能仅供娱乐，打赏金额将全部用于网站建设
+</td>
+    </tr>
+    </tr>
+	  <!--结束-->
+    </div>
+
+     <script>
+    var sidebar = document.getElementById('sidebar');
+    var toggleButton = document.getElementById('toggle-sidebar');
+    var content = document.getElementById('content');
+    var clickCount = 0;
+
+  toggleButton.addEventListener('click', function() {
+    sidebar.classList.toggle('show');
+    toggleButton.style.display = 'none';
+  });
+
+  document.addEventListener('click', function(event) {
+    if (event.target !== toggleButton) {
+      clickCount++;
+      if (clickCount % 2 === 1) {
+        sidebar.classList.add('show');
+        toggleButton.style.display = 'none';
+      } else {
+        sidebar.classList.remove('show');
+        toggleButton.style.display = 'block';
+      }
+    }
+  });
+</script>
+</body>
+</html>
