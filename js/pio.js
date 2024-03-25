@@ -153,7 +153,7 @@ var Paul_Pio = function (prop) {
 
              // 关于我
              elements.info.onclick = function () {
-                 window.open("https://tg-del.github.io/");
+                 window.open("index.html");
              };
              elements.info.onmouseover = function () {
                  modules.render("想了解更多关于我的信息吗？");
