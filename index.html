@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- 飘落动效 -->
+<script type="text/javascript" src="https://blog.songjiahao.com/myjs/sakurairo.js"></script>
+<script type="text/javascript" src="https://blog.songjiahao.com/myjs/clicklove.js"></script>
+<meta charset="utf-8">
+<title>online官网</title>
+<style type="text/css">
+		 /* 整体样式 */
+body<style>
+    @media screen and (max-width: 1000px) {
+  /* 当屏幕宽度小于等于1000px时应用的样式 */
+
+  /* 在这里添加你想要适应手机的样式 */
+  body {
+    font-size: 40px; /* 设置合适的字体大小 */
+  }
+}
+    
+    @media screen and (min-width: 601px) and (max-width: 1024px) {
+        /* 当屏幕宽度在601px到1024px之间时应用的样式 */
+        /* 在这里添加你想要适应平板的样式 */
+    }
+    
+    @media screen and (min-width: 1025px) {
+        /* 当屏幕宽度大于等于1025px时应用的样式 */
+        /* 在这里添加你想要适应电脑的样式 */
+    }
+a:link {
+    color: #000000;
+    text-decoration: none;
+}
+a:visited {
+    text-decoration: none;
+    color: #000000;
+}
+a:hover {
+    text-decoration: none;
+    color: #000000;
+}
+a:active {
+    text-decoration: none;
+    color: #000000;
+}
+
+	/*鼠标*/
+body{
+cursor: url(https://fastly.jsdelivr.net/gh/Fuukei/Public_Repository@latest/vision/cursor/normal.cur), auto;
+}
+	
+	 /* 整体样式 */
+ /*左侧边栏 */
+<style>
+  body {
+    margin: 0;
+    padding: 0;
+  }
+  .fixed-button {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+	font-size: 24px; /* 放大按钮 */
+    padding: 10px; /* 增加内边距 */ 
+  }
+  #sidebar {
+    position: fixed;
+    top: 0;
+    left: -200px; 
+    width: 200px;
+    height: 100%;
+    background-color: #f1f1f1;
+    transition: left 0.3s;
+    z-index: 1;
+  }
+  #sidebar.show {
+    left: 0; /* 侧边栏收起时占据200px宽度 */
+  }
+  #sidebar ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  #sidebar ul li {
+    padding: 10px;
+    cursor: pointer;
+  }
+  #sidebar ul li:hover {
+    background-color: #ddd;
+  }
+  #sidebar #toggle-sidebar {
+    position: absolute;
+    top: 0;
+    right: -3px;
+    width: 30px;
+    height: 100%;
+    background-color: #f1f1f1;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: right 0.3s;
+  }
+  #sidebar #toggle-sidebar:hover {
+    background-color: #ddd;
+  }
+  #sidebar #toggle-sidebar:before {
+    content: "⊞";
+  }
+  #content {
+    margin-left: 200px;
+    padding: 20px;
+  }
+	
+</style>
+
+<button class="fixed-button">⊞</button>
+<div id="sidebar">
+  <ul>
+    <li><a href="index.html" target="_self">主页</a></li>
+    <li><a href="biancheng.html" target="_self">编程</a></li>
+    <li><a href="tool.html" target="_self">工具</a></li>
+    <li><a href="Study.html" target="_self">学习资料</a></li>
+    <li><a href="moyu.html" target="_self">摸鱼</a></li>
+  </ul>
+</div>
+
+<script>
+  var fixedButton = document.querySelector('.fixed-button');
+  var sidebar = document.querySelector('#sidebar');
+
+  fixedButton.addEventListener('click', function () {
+    sidebar.classList.toggle('show');
+  });
+</script>
+<!--站长测试-->
+<script charset="UTF-8" id="LA_COLLECT" src="//sdk.51.la/js-sdk-pro.min.js"></script>
+<script>LA.init({id:"3FvSrZJXFYoh8bAH",ck:"3FvSrZJXFYoh8bAH"})</script>
+</head>
+<body>
+    <!--表宽-->
+<table width="100%">
+        <tbody>
+            <!--1-->
+			<!--访客数-->
+            <tr>
+                <td colspan="7">    
+	        <!-- 引入不蒜子计数 -->
+    <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+        <p> 浏览量：<span id="busuanzi_value_site_pv"><i class="fa fa-spinner fa-spin"></i></span>👀 | 访客数：<span id="busuanzi_value_site_uv"><i class="fa fa-spinner fa-spin"></i></span>👦 </p>
+        <p><p>您的进入时间: <span id="entryTime"></span></p>
+		    <script>
+        // 获取当前时间并格式化
+        var currentTime = new Date().toLocaleString();
+
+        // 将当前时间更新到页面上
+        document.getElementById('entryTime').textContent = currentTime;
+    </script>			
+</p></td>
+       </tr>
+	  <!--1-->
+	  <!--标题-->
+    <tr> 
+      <td colspan="7" align="center"><p><span style="font-size: 88px; font-family: Gotham, 'Helvetica Neue', Helvetica, Arial, sans-serif;">online官网</span></p>
+      </td>
+    </tr>
+	  <!--2-->
+    <tr>
+      <td colspan="7" align="center">&nbsp;
+	<form action="https://wap.baidu.com/s" method="get" autocomplete="off" target="_blank">
+      <input type="text" name="word" style="height: 40px; width: 300px;">
+      <input type="submit" value="百度一下" style="height: 40px; width: 100px;">
+    </form>
+	  </td>
+    </tr>
+			<!--空格-->
+			<tr style="font-size: 36px; font-weight: bold;">
+      <td colspan="7"><span style="color: #1B8BED">|</span><span style="color: #000000">目录跳转</span></td>
+    </tr>
+	  <!--3-->
+			 <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        li {
+            list-style: none;
+            float: left;
+            width: 120px;
+            height: 40px;
+            line-height: 40px;
+            text-align: center;
+            background-color:#f1f1f1;
+            margin-right: 1px;
+            position: relative;
+        }
+        li > ul {
+            position: absolute;
+            left: 0;
+            top: 40px;
+            background-color:#f1f1f1;
+            display: none;
+        }
+        li:hover > ul {
+            display: block;
+        }
+        li > ul > li {
+            height: 30px;
+            line-height: 30px;
+            margin-top: 1px;
+        }
+    </style>
+			<tr>
+      <td colspan="7">&nbsp;
+    <ul>
+		<li><a href="#early_lifa">视频专区</a></li>
+        <li><a href="#early_lifb">学校专区</a></li>
+        <li><a href="#early_lifc">资料查询</a></li>
+		<li><a href="#early_lifd">插件</a></li>
+        <li><a href="#early_life">电脑工具</a></li>
+        <li><a href="#early_liff">其他工具</a></li>
+		<li><a href="#early_lifg">音乐</a></li>
+        <li><a href="#early_lifh">短视频</a></li>
+		 <li><a href="#early_lifi">Other</a></li>
+        <li><a href="#early_lifj">网站赞助</a></li>     
+    </ul>
+    <script>
+        // 增加鼠标移入和移出事件
+        var lis = document.getElementsByTagName('li');
+        for (var i = 0; i < lis.length; i++) {
+            lis[i].onmouseover = function() {
+                this.children[1].style.display = 'block';
+            }
+            lis[i].onmouseout = function() {
+                this.children[1].style.display = 'none';
+            }
+        }
+    </script>
+			  </td>
+    </tr>
+   <!--暂空-->
+	  <!--空格-->
+			<tr>
+      <td colspan="7">&nbsp;</td>
+    </tr>
+			
+    <tr style="font-size: 36px">
+      <td colspan="7"><h4 id="early_lifa"><span style="color: #1B8BED">|</span>视频专区</h4></td>
+    </tr>
+	  <!--5-->
+    <tr>
+      <td><a href="https://v.qq.com/" target="_blank"><img src="image/QQ图片20230911170058.jpg" width="80" height="80" alt=""/></a></td>
+      <td><a href="https://www.bilibili.com/" target="_blank"><img src="image/QQ图片20230911171056.jpg" width="80" height="80" alt=""/></a></td>
+      <td><a href="https://www.iqiyi.com/" target="_blank"><img src="image/QQ图片20230911170138.jpg" width="80" height="80" alt=""/></a></td>
+      <td><a href="https://vip.yeyulingfeng.com/" target="_blank"><img src="image/QQ图片20231121124531.jpg" width="80" height="80" alt=""/></a></td>
+    
+    </tr>
+	  <!--6-->
+    <tr>
+      <td><a href="https://v.qq.com/" target="_blank">&nbsp;<span style="color: #000000">腾讯视频</span></a></td>
+      <td><a href="https://www.bilibili.com/" target="_blank">&nbsp;哔哩哔哩</a></td>
+      <td>&nbsp;<a href="https://www.iqiyi.com/" target="_blank"><span style="color: #000000">爱奇艺</span></a></td>
+      <td><a href="https://vip.yeyulingfeng.com/" target="_blank">全网视频解析</a></td>
+      <td>&nbsp;<a href="https://vip.yeyulingfeng.com/" target="_blank"><span style="color: #000000">&nbsp;</span></a></td>
+    </tr>
+	  <!--7-->
+	 <tr>
+      <td colspan="7">&nbsp;</td>
+    </tr>
+	    <!--8-->
+     <tr style="font-size: 36px">
+      <td colspan="7"><h4 id="early_lifb"><span style="color: #1B8BED">|</span>学校专区</h4></td>
+    </tr>
+	 <!--9-->
+    <tr style="font-size: 30px">
+      <td>&nbsp;<a href="https://passport2.chaoxing.com/login?fid=&newversion=true&refer=http%3A//i.chaoxing.com" target="_blank"><span style="color: #000000">学习通</span></a></td>
+      <td><a href="https://www.educoder.net/" target="_blank"><span style="color: #000000">头歌实践平台</span></a></td>
+      <td>&nbsp;<a href="http://jw.whcibe.com/xtgl/login_slogin.html" target="_blank"><span style="color: #000000">教务系统</span></a></td>
+      <td>&nbsp;<a href="http://zfpt.whcibe.com/" target="_blank">学生缴费</a></td>
+<td><a href="https://scriptcat.org/zh-CN/script-show-page/878#google_vignette" title="学习通刷课脚本" target="_blank"><span style="color: #000000">学习通刷课&nbsp;</span></a></td>
+     <td>&nbsp;</td>
+    </tr>
+	  <!--10-->
+			<td>&nbsp;</td>
+          <!--工具-->
+           <tr style="font-size: 36px">
+      <td><h4 id="early_lifc"><span style="color: #1B8BED">|资料查询</span></h4></td>
+    </tr>
+          <tr style="font-size: 36px">
+            <td>&nbsp;
+            <a href="https://www.csdn.net/" title="技术知识分享网站," target="_blank">CSDN</a></td>
+            <td>&nbsp;
+            <a href="https://github.com/" target="_blank">Github</a></td>
+          </tr>
+	
+			<!--插件-->
+			    <tr style="font-size: 36px">
+      <td><h4 id="early_lifd"><span style="color: #1B8BED">|</span>插件</h4></td>
+    </tr>
+          <tr style="font-size: 36px">
+            <td>&nbsp;
+            <a href="https://microsoftedge.microsoft.com/addons/detail/supercopy-%E8%B6%85%E7%BA%A7%E5%A4%8D%E5%88%B6/nhiheekdcnmfbapkmpbhmplfddenhjic?hl=zh-CN" title="解除百度文库等一些复制要钱设置" target="_blank">超级复制</a></td>
+          <td>&nbsp;
+            <a href="https://microsoftedge.microsoft.com/addons/detail/篡改猴/iikmkjmpaadaobahmlepeloendndfphd" title="油猴" target="_blank">油猴</a></td>
+          </tr>
+			<!--常用-->
+			<tr>
+      <td colspan="7">&nbsp;</td>
+    </tr>
+	     <tr style="font-size: 36px">
+      <td colspan="7"><h4 id="early_life"><span style="color: #1B8BED">|</span>电脑工具</h4></td>
+    </tr>
+	  
+    <tr>
+	 <tr style="font-size: 30px">
+      <td>&nbsp;<a href="https://www.winrar.com.cn/" target="_blank"><span style="color: #000000">RAR</span></a></td>
+      <td>&nbsp;<a href="https://wwwb.lanzouw.com/ilFX51c8zgjc" target="_blank">IDM</a></td>
+	  <td>&nbsp;<a href="https://wwm.lanzn.com/iM6141cmwp9c" target="_blank">系统更新一键禁止</a></td>
+	  <td>&nbsp;<a href="https://steampp.net/" target="_blank">Watt Toolkit</a></td>
+    <td>&nbsp;<a href="https://gv.163.com/" target="_blank">GameViewer</a></td>
+    </tr>
+	  </tr>
+	<!--购物-->
+		<tr>
+      <td colspan="7">&nbsp;</td>
+    </tr>
+	   <tr style="font-size: 36px">
+      <td colspan="7"><h4 id="early_liff"><span style="color: #1B8BED">|</span>其他工具</h4></td>
+    </tr>
+	  
+    <tr>
+	 <tr style="font-size: 30px">
+      <td><a href="https://www.speedtest.cn/" target="_blank">&nbsp;<span style="color: #000000">测速网</span></a></td>
+      <td>&nbsp;<a href="http://www.yishuzi.org/" target="_blank">艺术字体&nbsp;</a></td>
+    </tr>
+	  </tr>
+	  <!--测试-->
+    <tr>
+      <td colspan="7">&nbsp;</td>
+    </tr>
+	     <tr style="font-size: 36px">
+      <td colspan="7"><h4 id="early_lifg"><span style="color: #1B8BED">|</span>音乐</h4></td>
+    </tr>
+	  <tr>
+      <td><a href="https://music.163.com/" target="_blank"><img src="image/QQ图片20230911202114.jpg" width="80" height="80" alt=""/></a></td>
+      <td><a href="https://y.qq.com/" target="_blank"><img src="image/QQ图片20230911202118.jpg" width="80" height="80" alt=""/></a></td>
+      <td colspan="3"><a href="https://www.kugou.com/" target="_blank"><img src="image/QQ图片20230911202121.jpg" width="80" height="80" alt=""/></a></td>
+    </tr>
+    <tr>
+	 <tr style="font-size: 30px">
+      <td><a href="https://music.163.com/" target="_blank">&nbsp;<span style="color: #000000">网易云音乐</span></a></td>
+      <td>&nbsp;<a href="https://y.qq.com/" target="_blank">QQ音乐</a></td>
+      <td colspan="3"><a href="https://y.qq.com/" target="_blank">&nbsp;<span style="color: #000000">酷狗音乐</span></a></td>
+    </tr>
+	  </tr>
+	<!--短视频-->
+	 <tr>
+      <td colspan="7">&nbsp;</td>
+    </tr>
+	    <tr style="font-size: 36px">
+      <td colspan="7"><h4 id="early_lifh"><span style="color: #1B8BED">|</span>短视频</h4></td>
+    </tr>
+	  <tr>
+      <td><a href="https://www.kuaishou.com/" target="_blank"><img src="image/QQ图片20230911203011.jpg" width="80" height="80" alt=""/></a></td>
+      <td><a href="https://www.douyin.com/" target="_blank"><img src="image/QQ图片20230911202133.jpg" width="80" height="80" alt=""/></a></td>
+    </tr>
+    <tr>
+	 <tr style="font-size: 30px">
+      <td><a href="https://www.kuaishou.com/" target="_blank">&nbsp;<span style="color: #000000">快手&nbsp;</span></a></td>
+      <td>&nbsp;<a href="https://www.douyin.com/" target="_blank">抖音&nbsp;</a></td>
+    </tr>
+	 <!--空格-->
+	<tr>
+      <td colspan="7">&nbsp;</td>
+    </tr>
+	</tr>
+	   <tr style="font-size: 36px">
+      <td colspan="7"><h4 id="early_lifi"><span style="color: #1B8BED">|</span>ChatGpt</h4></td>
+    </tr>
+
+	<tr>
+  <tr style="font-size: 30px">
+	  <td>&nbsp;<a href="https://www.zaiwen.top/#/chat/working-edition" target="_blank">在问</a></td> 
+	  <td>&nbsp;<a href="https://tongyi.aliyun.com/qianwen/" target="_blank">通义千问</a></td>
+	  <td>&nbsp;<a href="https://chatglm.cn/main/alltoolsdetail" target="_blank">智谱清言</a></td>
+  </tr>
+    </tr>
+
+	<tr>
+      <td>&nbsp;</td>
+    </tr>
+<!--网站赞助-->
+  <tr style="font-size: 36px">
+      <td colspan="7"><h4 id="early_lifj"><span style="color: #1B8BED">|</span>网站赞助</h4></td>
+    </tr>
+      <td colspan="7">&nbsp;大哥哥大姐姐们啊！你们都是有钱的人呐～谁有那多余的零钱？给我这流浪的人啊...</td>
+    <tr>
+      <td colspan="6"><img src="image/QQ图片20231121141035.jpg" width="300" height="300" alt=""/><img src="image/QQ图片20231121140344.jpg" width="300" height="300" alt=""/>&nbsp;&nbsp;</td>
+    </tr>
+<tr>
+      <td colspan="7">&nbsp;大哥哥大姐姐们啊！扫这个红包，到店支付的时候有优惠哦！</td>   
+    </tr>
+<tr>
+      <td colspan="7"><img src="image/QQ图片20231121142104.jpg" width="300" height="300" alt=""/></td>
+    </tr>
+<!--空格-->
+<tr>
+      <td colspan="7">&nbsp;</td>
+    </tr>
+    <!--结尾-->
+	  <tr>
+      <td colspan="7" align="center">&nbsp;<a href="https://wx.mail.qq.com/login/loginpage?auth_type=3&login_exception=true" title="点击后跳转到管理员QQ好友界面" target="_blank"><img src="image/QQ图片20230911183850.jpg" alt="" width="20" height="20" border="0"/>反馈邮箱：2212423184@qq.com</a></td>
+    </tr>
+    <tr>
+      <td colspan="7" align="center">&nbsp;Online京ICP证010173号
+</td>
+    </tr>
+    <tr>
+       <td colspan="7" align="center">&nbsp;版权所有 online研发部</td>
+    </tr>
+    <tr>
+      <td colspan="7" align="center"><img src="image/QQ图片20230911182818.jpg" width="20" height="20" alt=""/>&nbsp;online官网备案110000020230911号</td>
+		<tr>
+       <td colspan="7" align="center">&nbsp;温馨提示：网页功能仅供娱乐，打赏金额将全部用于网站建设
+</td>
+    </tr>
+    </tr>
+	  <!--结束-->
+  </tbody>
+</table>
+
+</body>
+</html>
