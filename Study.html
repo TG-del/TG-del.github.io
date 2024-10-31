@@ -1,0 +1,141 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>online在线网站</title>
+<style type="text/css">
+   /*链接样式*/
+a:link {
+    color: #000000;
+    text-decoration: none;
+}
+a:visited {
+    text-decoration: none;
+    color: #000000;
+}
+a:hover {
+    text-decoration: none;
+}
+a:active {
+    text-decoration: none;
+}
+	/*页边属性*/
+body {
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+}
+	
+	/*左侧边栏整体样式*/
+body {
+    margin: 0;
+    padding: 0;
+  }
+  .fixed-button {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+	font-size: 24px; /* 放大按钮 */
+    padding: 10px; /* 增加内边距 */ 
+  }
+  #sidebar {
+    position: fixed;
+    top: 0;
+    left: -200px; 
+    width: 200px;
+    height: 100%;
+    background-color: #f1f1f1;
+    transition: left 0.3s;
+    z-index: 1;
+  }
+  #sidebar.show {
+    left: 0; /* 侧边栏收起时占据200px宽度 */
+  }
+  #sidebar ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  #sidebar ul li {
+    padding: 10px;
+    cursor: pointer;
+	text-align:center;/*文字居中*/
+  }
+  #sidebar ul li:hover {
+    background-color: #ddd;
+  }
+  #sidebar #toggle-sidebar {
+    position: absolute;
+    top: 0;
+    right: -3px;
+    width: 30px;
+    height: 100%;
+    background-color: #f1f1f1;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: right 0.3s;
+  }
+  #sidebar #toggle-sidebar:hover {
+    background-color: #ddd;
+  }
+  #sidebar #toggle-sidebar:before {
+    content: "⊞";
+  }
+  #content {
+    margin-left: 200px;
+    padding: 20px;
+  }	
+</style>
+</head>
+
+	<!-- 添加左侧边栏和按钮及js代码-->
+     <button class="fixed-button">⊞</button>
+<div id="sidebar">
+  <ul>
+    <li><a href="index.html" target="_self">主页</a></li>
+    <li><a href="biancheng.html" target="_self">编程</a></li>
+    <li><a href="tool.html" target="_self">工具</a></li>
+    <li><a href="Study.html" target="_self">学习资料</a></li>
+    <li><a href="moyu.html" target="_self">摸鱼</a></li>
+  </ul>
+</div>
+
+<script>
+  var fixedButton = document.querySelector('.fixed-button');
+  var sidebar = document.querySelector('#sidebar');
+
+  fixedButton.addEventListener('click', function () {
+    sidebar.classList.toggle('show');
+  });
+</script>
+    
+    <div id="content">
+        <h1>学习资料&nbsp;</h1>
+        <p>点击按钮显示/隐藏左侧边栏</p>
+		<tr>
+      <td colspan="7">&nbsp;</td>
+    </tr>
+	
+	   <tr style="font-size: 36px">
+      <td colspan="7"><h4 id="early_lifi"><span style="color: #1B8BED">|</span>Other</h4></td>
+    </tr>
+	<tr>
+		<tr>
+	 <tr style="font-size: 30px">
+      <td><a href="http://cxysite.com/" title="各种小程序" target="_parent">&nbsp;<span style="color: #000000">程序员导航&nbsp;</span></a></td>
+      <td>&nbsp;<a href="https://sji8.taobao.com/" title="联系管理员刷机" target="_parent">LG远程刷机&nbsp;</a></td>
+    </tr>
+    </tr>
+	 <tr style="font-size: 30px">
+      <td><a href="ChatGpt.html" title="安卓，苹果，电脑不同版本安装" target="_parent">&nbsp;<span style="color: #000000">ChatGpt</span></a></td>
+      <td>&nbsp;<a href="https://chatgpt.indexls.com/#/chat" title="每天登陆30次机会" target="_parent">网页版ChatGpt</a></td>
+    </tr>
+    </tr>
+	<tr>
+      <td colspan="7">&nbsp;</td>
+    </tr>
+    </div>
+
+</html>
